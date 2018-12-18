@@ -13,9 +13,12 @@ mobile, etc.
 We will use [TeX](https://en.wikipedia.org/wiki/TeX) for input and
 [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)/
 [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) as output to
-produce a static web page. There are many places where you can host
-such content for free, including Github. The final product of this
-tutorial is served from [Github pages](https://haksayng.github.io/mathjax-quickstart).
+produce a static web page with a button to show/hide solution(s). 
+
+There are many places where you can host (static) content like the web
+page we will make in this tutorial for free, including Github. The
+final product of this tutorial is served from [Github
+pages](https://haksayng.github.io/mathjax-quickstart/).
 
 ## Prerequisites
 
@@ -71,13 +74,18 @@ Bootstrap will take care of many small, tedious problems of making a
 website for us by providing sensible defaults for many things. More on
 this later as we add some content.
 
+Notice that there are various external links in the code
+above. Bootstrap is provided via a [Content Delivery
+Network](https://en.wikipedia.org/wiki/Content_delivery_network)
+(CDN), as opposed to downloading/hosting that code ourselves.
+
+
 ### MathJax
 
 Add MathJax, which will allow us to type TeX into HTML documents, by
 copy/pasting the following line into the `<head>` of `index.html`. In
-this repository, I have put it right before the closing tag, `/head>`.
+this repository, I have put it right before the closing tag, `</head>`.
 
-Like Bootstrap 4 above, we get MathJax via a [Content Delivery Network](https://en.wikipedia.org/wiki/Content_delivery_network) (CDN), as opposed to downloading/hosting that code ourselves.
 
 ```html
 <script type="text/javascript" async
@@ -85,7 +93,8 @@ Like Bootstrap 4 above, we get MathJax via a [Content Delivery Network](https://
 </script>
 ```
 
-Right before that, paste this:
+Like Bootstrap 4 above, we get MathJax via a CDN. 
+Directly preceding the code we just added, copy-pasta this:
 
 ```html
 <script type="text/x-mathjax-config">

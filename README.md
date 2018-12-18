@@ -15,6 +15,8 @@ We will use [TeX](https://en.wikipedia.org/wiki/TeX) for input and
 [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) as output to
 produce a static web page with a button to show/hide solution(s). 
 
+![What you will be making](preview.png)
+
 There are many places where you can host (static) content like the web
 page we will make in this tutorial for free, including Github. The
 final product of this tutorial is served from [Github

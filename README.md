@@ -203,7 +203,7 @@ more "elbow room".
 .solution {
     background: #e2e2e2;
     color: #5f2013;
-	margin: 10px;
+    margin: 10px;
     padding: 10px;
 }
 ```
@@ -296,4 +296,4 @@ nearly everywhere.
 Some other places to write math easily using TeX are:
 
 - [RStudio](https://www.rstudio.com/)'s RMarkdown notebooks
-- Jupyter Notebook (works well with Python)
+- [Jupyter Notebook](https://jupyter.org/) (works well with Python)
